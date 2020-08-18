@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": false,
+    "downlevelIteration": true,
+    "target": "es5",
+    "lib": [
+      "ESNext"
+    ],
+    "types": [
+      "mocha",
+      "jest",
+      "node"
+    ],
+    "strict": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "removeComments": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@mono-repo/*": [
+        "./packages/*"
+      ]
+    }
+  }
+}
