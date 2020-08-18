@@ -1,1 +1,1 @@
-module.exports.TEST_VAR = "TEST_VARF";
+module.exports.TEST_VAR = "TEST_VAR";
